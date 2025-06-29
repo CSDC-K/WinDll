@@ -94,7 +94,7 @@ def get_all_pids():
     count = int(bytes_returned.value / ctypes.sizeof(wintypes.DWORD))
     return arr[:count]
 
-# Process adı al
+
 def get_process_name(pid):
     h_process = kernel32.OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, False, pid)
     if not h_process:
