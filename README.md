@@ -1,7 +1,6 @@
 # 🚀 WinDll 0.1.0
 
-![Python](https://img.shields.io/badge/python-3.6%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-0.1.0-orange) [![GitHub](https://img.shields.io/badge/GitHub-CSDC-K-181717?logo=github&logoColor=white)](https://github.com/CSDC-K)
-
+![Python](https://img.shields.io/badge/python-3.6%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-0.1.0-orange) [![GitHub](https://img.shields.io/badge/GitHub-@CSDC-K-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CSDC-K)
 ---
 
 ## 🔥 What is WinDll?
