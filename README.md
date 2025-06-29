@@ -1,7 +1,6 @@
 # 🚀 WinDll 0.1.0
 
-![Python](https://img.shields.io/badge/python-3.6%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-0.1.0-orange) [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png) CSDC-K](https://github.com/CSDC-K)
-
+![Python](https://img.shields.io/badge/python-3.6%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-0.1.0-orange) 
 ## 🔥 What is WinDll?
 
 WinDll is a lightweight Python wrapper around Windows' native `user32.dll` and `kernel32.dll` APIs designed to simplify common Windows system tasks such as window management, keyboard/mouse input simulation, process management, and system control.
