@@ -1,6 +1,6 @@
 # 🚀 WinDll 0.1.0
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-0.1.0-orange)
+![Python](https://img.shields.io/badge/python-3.6%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-0.1.0-orange)
 
 ---
 
@@ -40,7 +40,7 @@ pip install windll-python
 from WinDll import User32DLL, Kernel32DLL
 
 winapi = User32DLL()
-or
+#or
 winapi = Kernel32DLL
 ```
 
@@ -54,15 +54,17 @@ result = winapi.DestroyWindow("Untitled - Notepad")
 print("Closed successfully" if result else "Window not found")
 
 # Show or hide a window
-winapi.WindowCall(WindowName="Untitled - Notepad", SetShow=True, SHOW=True)  # Show window
-winapi.WindowCall(WindowName="Untitled - Notepad", SetShow=True, SHOW=False) # Hide window
+winapi.WindowsCall(WindowName="Untitled - Notepad", SetShow=True, SHOW=True)  # Show window
+winapi.WindowsCall(WindowName="Untitled - Notepad", SetShow=True, SHOW=False) # Hide window
 
 # Set window to foreground
-winapi.WindowCall(WindowName="Untitled - Notepad", SetForeGround=True)
+winapi.WindowsCall(WindowName="Untitled - Notepad", SetForeGround=True)
 
 # Move and resize window
-winapi.WindowCall(WindowName="Untitled - Notepad", SetRes=True, ResX=800, ResY=600)
-winapi.WindowCall(WindowName="Untitled - Notepad", SetPlace=True, MoveX=100, MoveY=100)
+winapi.WindowsCall(WindowName="Untitled - Notepad", SetRes=True, ResX=800, ResY=600)
+winapi.WindowsCall(WindowName="Untitled - Notepad", SetPlace=True, MoveX=100, MoveY=100)
+# Rename Window
+winapi.WindowsCall(WindowName="Untitled - Notepad", SetName = True, NewName = "Test - Notepad")
 ```
 
 ---
